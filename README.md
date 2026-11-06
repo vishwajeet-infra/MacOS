@@ -59,10 +59,3 @@ If a new VMware version is installed the patches will be lost as the update will
 
 2.5 VMware Tools
 The Unlocker provides the VMware tools ISO images. Version 16/17/25/26 of Workstation Pro recognises the darwin.iso files and the tools can be installed in the usual way by using the "Install VMware Tools" menu item. The Player version does not automatically pick up the ISO images and so the ISO must be maually attached to the VM via the guest's settings.
-
-3. Thanks
-Thanks to Zenith432 for originally building the C++ Unlocker and Mac Son of Knife (MSoK) for all the testing and support.
-
-Thanks also to Sam B for finding the solution for ESXi 6 and helping me with debugging expertise. Sam also wrote the code for patching ESXi ELF files and modified the Unlocker code to run on Python 3 in the ESXi 6.5 environment.
-
-There have also been many new testers via GitHub, some who want to remain anoymous, but a big thanks to them.
